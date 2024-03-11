@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'SF Pro Display';
+    src: local(''),
+         url('fonts/FontsFree-Net-SFProDisplay-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+
+}
+body {
+    font-family: 'SF Pro Display', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.bg_img {
+    position: relative;
+    width: 100%;
+    height: 90vh; /* Adjust the height as needed */
+    overflow: hidden;
+}
+
+.bg_img img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transform: rotate(180deg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.bg_content {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    color: white;
+}
+
+.bg_content h1 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.bg_content p {
+    font-size: 1.5em;
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.btn_btn {
+    background-color: #FAC83E;
+    border: none;
+    padding: 12px 24px 12px 24px;
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.btn_btn:hover {
+    background-color: #FAC83E;
+}
+
+.btn_btn a{
+    color: #000;
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 600;
+}
+
+/* box section area */
+.box_section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 80px 50px;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    width: 23%;
+    text-align: left; /* Adjust text alignment as needed */
+}
+
+.section1 img {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+    margin-right: 10px; /* Add margin to separate image and text */
+}
+
+.box_content {
+    flex-grow: 1; /* Allow content to take remaining space */
+}
+
+.box_content p {
+    margin-top: 10px;
+}
+
+/* blockquote section */
+.blockquote_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; 
+    width: 70%; 
+    padding: 14px 0px 3px 0px;
+    margin: 0 auto; 
+}
+
+blockquote {
+    text-align: center; 
+}
+
+blockquote h2 {
+    margin: 22px 0px 3px 0px;
+    font-size: 20px;
+}
+
+
+/* newsletter_section area */
+
+.newsletter_section {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.newsletter_section h2 {
+    margin-bottom: 20px; 
+}
+
+.newsletter_section .btn_btn {
+    margin-top: 20px;
+}
+.newsletter_section .btn_btn:hover {
+    background-color: #F1B305; 
+}
+
+.newsletter_section h2{
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+
+
+
+
